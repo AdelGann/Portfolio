@@ -1,10 +1,11 @@
-import {LandingPage, Portfolio} from "./components";
+import {LandingPage, Body} from "./components";
+
 
 function Home() {
   return (
     <main>
         <LandingPage />
-        <Portfolio />
+        <Body />
       </main>
   );
 }
