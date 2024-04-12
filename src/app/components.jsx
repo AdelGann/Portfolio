@@ -48,8 +48,8 @@ function Projects() {
   return (
     <section id='Projects' className='block pt-6 p-5'>
       <div className=' p-5 bg-white shadow-md shadow-stone-600 rounded-md'>
-      <h1 className='flex justify-center text-2xl font-sans text-black font-semibold'>Projects</h1>
-      <div className='flex justify-between'>
+      <h1 className='text-2xl font-sans text-black font-semibold'>Projects</h1>
+      <div className='flex flex-wrap justify-center'>
         <Card img={Cards.CardSoon.img} title={Cards.CardSoon.title} description={Cards.CardSoon.description} />
         <Card img={Cards.Card1.img} title={Cards.Card1.title} description={Cards.Card1.description} url={Cards.Card1.url}/>
         <Card img={Cards.CardSoon.img} title={Cards.CardSoon.title} description={Cards.CardSoon.description} />
