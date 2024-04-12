@@ -1,4 +1,4 @@
-import Card1 from './manifest/card-projects-manifest';
+import Cards from './manifest/card-projects-manifest';
 import aboutMsg from './manifest/aboutMsg';
 import badges from './badges/badges';
 import icons from './manifest/icons';
@@ -32,11 +32,11 @@ function Card({ img, title, description, url }) {
     url = "#";
   }
   return (
-    <div className="m-20 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 " name="Card">
+    <div className="m-20 max-w-sm bg-white border border-gray-200 rounded-lg shadow text-black" name="Card">
       <a href={url}>
         <img className="w-50 h-50 rounded-t-lg" src={img} alt="" />
         <div className="p-10">
-          <h5 className='mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white'>{title}</h5>
+          <h5 className='mb-2 text-3xl font-bold tracking-tight '>{title}</h5>
           <p className="mb-3 text-lg font-normal text-gray-700 dark:text-gray-400">{description}</p>
         </div>
       </a>
@@ -46,10 +46,16 @@ function Card({ img, title, description, url }) {
 
 function Projects() {
   return (
-    <section id='Projects' className='block pt-6'>
+    <section id='Projects' className='block pt-6 p-5'>
       <div className=' p-5 bg-white shadow-md shadow-stone-600 rounded-md'>
-        <h1 className='text-black font-2xl font-sans font-semibold'>Soon...</h1>
-        <p className="text-black font-lg font-sans font-extralight">I’m working to migrate the code of one of my projects to React and NextJS </p>
+      <h1 className='flex justify-center text-2xl font-sans text-black font-semibold'>Projects</h1>
+      <div className='flex justify-between'>
+        <Card img={Cards.CardSoon.img} title={Cards.CardSoon.title} description={Cards.CardSoon.description} />
+        <Card img={Cards.Card1.img} title={Cards.Card1.title} description={Cards.Card1.description} url={Cards.Card1.url}/>
+        <Card img={Cards.CardSoon.img} title={Cards.CardSoon.title} description={Cards.CardSoon.description} />
+      </div>
+      
+        
       </div>
       <hr className='bg-black' />
     </section>
