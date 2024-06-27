@@ -1,4 +1,4 @@
-import { LandingPage } from "./components/LandingPage";
+import { LandingPage } from "./components/LandingComponent/LandingPage";
 function Home() {
   return (
     <main>

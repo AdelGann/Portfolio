@@ -1,0 +1,18 @@
+@keyframes animationAperture {
+    from {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    50% { 
+        transform: translateY(-50px);
+        opacity: 0.5;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.animatedContent {
+    animation: animationAperture 1s ease-in-out;
+}
