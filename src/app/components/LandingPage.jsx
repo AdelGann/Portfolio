@@ -2,7 +2,7 @@
 
 import React, {useState} from "react";
 import { Main } from "./Main";
-import { About } from "./About";
+import { About } from "./aboutCoponent/About";
 
 function LandingPage() {
   const [steps, setSteps] = useState(1)
@@ -11,7 +11,7 @@ function LandingPage() {
       <div className='relative justify-center p-4'>
         <div>
           <div className="flex justify-center pt-3">
-            <div className='inline-flex gap-20 font-semibold text-gray-200 '>
+            <div className='inline-flex gap-10 lg:gap-16 xl:gap-20 font-semibold text-gray-200 '>
               <button className="hover:opacity-80" onClick={(e) => setSteps(1)}>Home</button>
               <button className="hover:opacity-80" onClick={(e) => setSteps(2)}>About</button>
               <button className="hover:opacity-80" onClick={(e) => setSteps(3)}>Skills</button>

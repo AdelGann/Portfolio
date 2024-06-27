@@ -1,0 +1,16 @@
+@media (min-width: 1024px) {
+    .contentInner {
+    width: 600px;
+    }
+}
+
+
+.Image {
+    border-radius: 50%;
+    width: 150px;
+}
+.contentImage {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
