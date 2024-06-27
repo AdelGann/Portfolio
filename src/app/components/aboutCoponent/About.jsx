@@ -12,10 +12,11 @@ export const About = () => {
                   <h2 className="text-xl sm:text-3xl font-bold" style={{fontFamily: "Fira Code"}}>About Me</h2>
                 </div>
                 <div className="py-5 font-light text-white">
-                  <p>Desarrollador Fullstack con experiencia en desarrollo web y sistemas eficientes. Mis habilidades abarcan una gama de tecnologías, y estoy listo para llevar sus proyectos al siguiente nivel. 
-                    Diseño interfaces atractivas y receptivas, trabajo con tecnologías como React, TypeScript y JavaScript.</p>
-                  <p className="pt-3">Construyo servidores robustos con Nodejs y Express, y soy competente en la creación de API RESTful. También tengo experiencia con Python para procesamiento de datos y automatización, así como Java para soluciones escalables. 
-                    Mi proyecto mas destacado es un sistema de gestión de datos para una institución educativa en forma de página web.</p>
+                  <p>Fullstack developer specialized in web development and efficient systems. My skills span a range of technologies: React, TypeScript and JavaScript.
+                     Designing intuitive and functional interfaces, I’m ready to take your projects to the next level.</p>
+                  <p className="pt-3">I build servers with Nodejs and Express, I am proficient in creating RESTful APIs. 
+                    I have experience using Python for data processing and automation, also handling Java for scalable solutions.
+                    My most recent project is a data management system for an educational institution and the creation of its website</p>
                 </div>
                 <hr />
                 <div className={style.contentImage}>
@@ -27,7 +28,6 @@ export const About = () => {
                   <img src="/icons/mail.png" alt="Mail Logo" />
                 </div>
               </div>
-             
             </div>
           </div>
         </div>
