@@ -1,14 +1,12 @@
-import {LandingPage, Body} from "./components";
-
-
+import { LandingPage } from "./components/LandingPage";
 function Home() {
   return (
     <main>
-        <LandingPage />
-        <Body />
-      </main>
+      <LandingPage />
+    </main>
   );
 }
+
 
 
 export default Home
