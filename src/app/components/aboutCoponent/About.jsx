@@ -3,7 +3,7 @@ import style from "./About.module.css"
 export const About = () => {
   return (
     <>
-      <div className="about-container"> {/* Added a container class */}
+      <div className={style.aboutContainer}> {/* Added a container class */}
         <div className="content mx-auto flex justify-center text-center py-8 lg:py-10 2xl:py-24">
           <div className="bg-neutral-500 p-10 bg-opacity-10 rounded-xl shadow-xl backdrop-blur"> {/* Added bg-opacity-20 class */}
             <div className={`${style.contentInner} grid gap-10 w-auto`} > {/* Added content-inner class */}
