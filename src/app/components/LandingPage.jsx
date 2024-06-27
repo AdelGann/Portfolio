@@ -15,7 +15,7 @@ function LandingPage() {
               <button className="hover:opacity-80" onClick={(e) => setSteps(1)}>Home</button>
               <button className="hover:opacity-80" onClick={(e) => setSteps(2)}>About</button>
               <button className="hover:opacity-80" onClick={(e) => setSteps(3)}>Skills</button>
-              <button className="hover:opacity-80" onClick={(e) => setSteps(4)}>Contact</button>
+              <button className="hover:opacity-80" onClick={(e) => setSteps(4)}>Projects</button>
             </div>
           </div>
 
