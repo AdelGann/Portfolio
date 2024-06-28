@@ -22,10 +22,16 @@ export const About = () => {
                 <div className={style.contentImage}>
                   <img src="/profile.jfif" alt="Adel Gannem Profile" className={style.Image}/>
                 </div>
-                <div className='inline-flex gap-2 pt-3 w-7 justify-center'>
-                  <img src="/icons/linkedin.png" alt="LinkedIn logo" />
-                  <img src="/icons/github.png" alt="Github logo" />
-                  <img src="/icons/mail.png" alt="Mail Logo" />
+                <div className='inline-flex gap-2 pt-5 w-20 justify-center'>
+                  <a href="https://www.linkedin.com/in/adel-gannem/" target='_blank'> 
+                    <img src="/icons/linkedin.png" alt="LinkedIn logo" />
+                  </a>
+                  <a href="https://github.com/AdelGann" target='_blank'> 
+                    <img src="/icons/github.png" alt="Github logo" />
+                  </a>
+                  <a href="mailto:imadelg14@gmail.com" target='_blank'> 
+                    <img src="/icons/mail.png" alt="Mail Logo" />
+                  </a>
                 </div>
               </div>
             </div>
