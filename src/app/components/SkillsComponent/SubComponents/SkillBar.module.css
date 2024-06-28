@@ -1,11 +1,15 @@
-@keyframes slideBar {
-  from {
-    transform: translateX(-100%); /* Start from off-screen (left) */
-  }
-  to {
-    transform: translateX(0); /* End at full width */
-  }
-}
+
 .contentInner {
-  transition: slideBar 2s ease;
+  
+  height: 100%; /* Full height */
+  border-radius: 6px; /* Equivalent of rounded-sm (small border radius) */
+  background-image: linear-gradient(to right, #f5f5f5, #00c7ff, #1ea7fc); /* Gradient definition */
+}
+.animateProgress {
+  animation: progressBar 3s ease-in-out forwards; /* Animation name, duration, timing function, and direction */
+}
+
+@keyframes progressBar {
+  from { width: 0; } /* Start from 0 width */
+  to { width: 100; } /* Animate to full width */
 }
