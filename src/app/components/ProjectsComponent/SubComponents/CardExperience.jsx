@@ -20,7 +20,7 @@ export function CardExperience ({ experience, children })  {
       <div className="flex-grow">
         <div className="inline-flex gap-5">
           <h4 className="font-bold text-lg">{companyName}</h4>
-          <div className="inline-flex justify-center gap-5 pl-2">
+          <div className="lg:inline-flex justify-center gap-5 pl-2">
             {technologies.map((tech) => (
               <img
                 key={tech.name || tech} // Use tech.name if available, otherwise use tech itself as a key
@@ -31,8 +31,8 @@ export function CardExperience ({ experience, children })  {
             ))}
           </div>
         </div>
-        <p className="text-gray-400">{jobTitle}</p>
-        <p className="text-gray-400">
+        <p className="text-gray-400 text-sm">{jobTitle}</p>
+        <p className="text-gray-400 text-sm">
           {startDate} - {endDate}
         </p>
         {children && <div className="mt-4">{children}</div>} {/* Handle nested experiences */}
