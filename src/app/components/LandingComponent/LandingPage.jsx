@@ -4,7 +4,7 @@ import React, {useState} from "react";
 import { Main } from "../MainComponent/Main";
 import { About } from "../aboutCoponent/About";
 import { Skills } from "../SkillsComponent/Skills";
-import { Projects } from "../ProjectsComponent/Projects";
+import { Experience } from "../ProjectsComponent/Experience";
 import style from "./Landing.module.css" 
 
 function LandingPage() {
@@ -18,13 +18,13 @@ function LandingPage() {
               <button className="hover:opacity-80 hover:-translate-y-1" onClick={(e) => setSteps(1)}>Home</button>
               <button className="hover:opacity-80 hover:-translate-y-1" onClick={(e) => setSteps(2)}>About</button>
               <button className="hover:opacity-80 hover:-translate-y-1" onClick={(e) => setSteps(3)}>Skills</button>
-              <button className="hover:opacity-80 hover:-translate-y-1" onClick={(e) => setSteps(4)}>Projects</button>
+              <button className="hover:opacity-80 hover:-translate-y-1" onClick={(e) => setSteps(4)}>Experience</button>
             </div>
           </div>
           {steps === 1 && <Main/>}
           {steps === 2 && <About/>}
           {steps === 3 && <Skills/>}
-          {steps === 4 && <Projects/>}
+          {steps === 4 && <Experience/>}
         </div> 
       </div>
       
