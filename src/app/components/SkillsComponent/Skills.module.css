@@ -1,0 +1,25 @@
+@media (min-width: 1280px) {
+    .skillContainer {
+        padding-top: 10px;
+        display: flex;
+        gap: 200px;
+        justify-content: space-evenly;
+    }
+}
+@keyframes animatedContainer {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }  
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.skillsContainer {
+    animation: animatedContainer 1s ease-in-out;
+}
+.skillContainer {
+    padding: 10px 0px 10px;
+}
+

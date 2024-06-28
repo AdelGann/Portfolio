@@ -3,7 +3,8 @@
 import React, {useState} from "react";
 import { Main } from "../MainComponent/Main";
 import { About } from "../aboutCoponent/About";
-import { Skills } from "../Skills";
+import { Skills } from "../SkillsComponent/Skills";
+import { Projects } from "../ProjectsComponent/Projects";
 import style from "./Landing.module.css" 
 
 function LandingPage() {
@@ -23,6 +24,7 @@ function LandingPage() {
           {steps === 1 && <Main/>}
           {steps === 2 && <About/>}
           {steps === 3 && <Skills/>}
+          {steps === 4 && <Projects/>}
         </div> 
       </div>
       
