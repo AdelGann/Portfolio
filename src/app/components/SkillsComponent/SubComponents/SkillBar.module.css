@@ -1,4 +1,11 @@
-
+@keyframes slideBar {
+  from {
+    transform: translateX(-100%); /* Start from off-screen (left) */
+  }
+  to {
+    transform: translateX(0); /* End at full width */
+  }
+}
 .contentInner {
-  transition: width 5s ease;
+  transition: slideBar 2s ease;
 }
