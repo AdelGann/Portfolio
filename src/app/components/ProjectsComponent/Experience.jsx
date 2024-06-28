@@ -48,7 +48,7 @@ const experiences = [
     Date: 'May 2024 - June 2024',
   },
   {
-    companyLogo: '/icons/soon.png',
+    companyLogo: '/icons/Soon.png',
     companyName: 'Upcoming Project', // Placeholder company name
     jobTitle: 'Coming Soon!', // Placeholder job title
     Date: 'Coming Soon', // Placeholder start date
@@ -58,7 +58,7 @@ const experiences = [
 
 const projects = [
   {
-    companyLogo: '/icons/soon.png',
+    companyLogo: '/icons/Soon.png',
     companyName: 'Upcoming Project', // Placeholder company name
     jobTitle: 'Coming Soon!', // Placeholder job title
     Date: 'Coming Soon', // Placeholder start date
