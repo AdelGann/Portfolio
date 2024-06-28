@@ -45,15 +45,13 @@ const experiences = [
       { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg' },
     ],
     jobTitle: 'Frontend Developer - Internship contract',
-    startDate: 'May 2024',
-    endDate: 'June 2024',
+    Date: 'May 2024 - June 2024',
   },
   {
     companyLogo: '/icons/soon.png',
     companyName: 'Upcoming Project', // Placeholder company name
     jobTitle: 'Coming Soon!', // Placeholder job title
-    startDate: 'Coming Soon', // Placeholder start date
-    endDate: 'Coming Soon', // Placeholder end date
+    Date: 'Coming Soon', // Placeholder start date
   },
   // ... other experience objects
 ];
@@ -63,8 +61,7 @@ const projects = [
     companyLogo: '/icons/soon.png',
     companyName: 'Upcoming Project', // Placeholder company name
     jobTitle: 'Coming Soon!', // Placeholder job title
-    startDate: 'Coming Soon', // Placeholder start date
-    endDate: 'Coming Soon', // Placeholder end date
+    Date: 'Coming Soon', // Placeholder start date
   },
   // ... other experience objects
 ];
